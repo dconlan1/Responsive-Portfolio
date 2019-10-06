@@ -56,7 +56,7 @@ body {
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0 0 30px;
+    margin: 0 0 50px;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -80,7 +80,8 @@ body {
   nav {
     float: right;
     margin-top: 25px;
-  }
+    margin-right: 25px;
+  } 
   
   nav a {
     display: inline-block;
@@ -90,11 +91,11 @@ body {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
-  }
+  } 
   
   nav a:first-child {
     border-left: 0 none;
-  }
+  } 
   
   /* footer */
   
@@ -216,3 +217,79 @@ body {
     border: 0 none;
   }
   
+  @media only screen and (max-width:640px) {
+    .header {
+      text-align:center;
+      font-size: 1.4rem;
+    }
+
+    #name {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .main-content {
+      width: 100%;
+    }
+
+    .section,
+    .section-1,
+    .section-2 {
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form {
+      width: 95%;
+      margin: 0 auto 1rem auto;
+      padding: 2rem auto;
+    }
+
+    .links-right {
+      position: absolute;
+      right: 5%;
+    }
+
+    .link-aboutme {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .main-content {
+      width: 100%;
+    }
+    .stu-name {
+      position: absolute;
+      left: 1%;
+      text-transform: uppercase;
+    }
+    .links-right {
+      position: absolute;
+      left: 1%;
+      text-transform: uppercase;
+    }
+    .contact-form {
+      width: 95%;
+      margin: 0 auto 3rem auto;
+      padding: 2rem auto;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 980px) {
+    .main-content {
+      width: 90%;
+    }
+    .stu_name {
+      position: absolute;
+      left: 5%;
+      text-transform: uppercase;
+    }
+    .links-right {
+      position: absolute;
+      right: 5%;
+    }
+  }
