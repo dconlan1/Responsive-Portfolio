@@ -1,35 +1,46 @@
-# README for Dave Conlan Portfolio #1
+# -Responsive-Portfolio-
+UC Berkeley 
 
-Tbis is my first portfolio for the UC Berkeley Coding Program. 
+This is a class portfolio using responsive layout techniques required for modern mobile applications.  
 
-## Table of Contents
+*One exercise is done using manual resizing techniques within a custom .CSS sheet. 
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Support](#support)
-- [Contributing](#contributing)
+*The second exercise is done using Bootstrap components tied to their .CSS platform.
 
-## Installation
+*The media query breakpoints were: 576px,768px, 992px, and 1200px. 
 
-Download to your project directory, add `README.md`, and commit:
+Some interseting code is found here: 
 
-```sh
-curl -LO http://git.io/Xy0Chg
-git add README.md
-git commit -m "Use README Boilerplate"
-```
+*<div class="container">
+        <div class="card" style="width: 30rem;">
+                <img src="4O8A5659.JPG" width="90" height="75" class="card-img-left" alt="Dave">
+                <div class="card-body">
+and here:
 
-## Usage
+ <div class="row justify-content-between">
+            <div class="col-1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="position-relative">
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="#">Portfolio</a>
+                            <a class="nav-item nav-link" href="#">Contact</a>
+                          </div>
+                    </div>                    
+                </nav>
+            </div>
+        </div>
 
-Replace the contents of `README.md` with your project's:
+*Here are some walktroughs of the pages
 
-- Dave Conlan Portfolio
-- It has a sampling of equestrian links for back-gate.com
-- Use of this portfolio is intended to market the capabilities of back-gate.com
-- For all support needs, please email dconlan@back-gate.com
+<img src="https://dconlan1.github.io/Responsive-Portfolio/contact.html" width="90" height="75" class="card-img-top">
 
 
-## Support
+<img src="https://dconlan1.github.io/Responsive-Portfolio/portfolio.html" width="90" height="75" class="card-img-top">
 
-Please [open an issue](https://github.com/fraction/dconlan/issues/new) for support.
 
+<img src="https://dconlan1.github.io/Responsive-Portfolio/index.html" width="90" height="75" class="card-img-top">
