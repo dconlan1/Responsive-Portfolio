@@ -37,10 +37,10 @@ and here:
 
 *Here are some walktroughs of the pages
 
-<img src="https://dconlan1.github.io/Responsive-Portfolio/contact.html" width="90" height="75" class="card-img-top">
+<img src="contact.png" width="90" height="75" class="card-img-top">
 
 
-<img src="https://dconlan1.github.io/Responsive-Portfolio/portfolio.html" width="90" height="75" class="card-img-top">
+<img src="portfolio.png" width="90" height="75" class="card-img-top">
 
 
-<img src="https://dconlan1.github.io/Responsive-Portfolio/index.html" width="90" height="75" class="card-img-top">
+<img src="index.png" width="90" height="75" class="card-img-top">
